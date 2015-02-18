@@ -34,13 +34,13 @@ In the *File Open* dialog, browse to the location of the R script in your file s
 
 On the *Upload User Defined Script* page, click the *PCA.R* file to indicate is as the main file of the R script, then click next.
 
-![](./images/MainFile.png)
+![](./images/MainFile.PNG)
 
 On the *Specify Parameters* page, enter a name for the script (e.g. "PCA"), and ensure that **Input Data** is set to *Training Data*, **Column Type** is set to *All Column Type* and **Script Type** is set to *Freeform*.
 
 Most importantly, as this script contains a parameter that the user needs to specify, add a parameter *groupingColumn* by typing in the next empty cell under **Name** and give it the type *Column Picker*.  Click Finish to upload the script to the Predixion Insight server.
 
-![](./images/Parameters.png)
+![](./images/Parameters.PNG)
 
 
 
